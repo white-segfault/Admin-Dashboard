@@ -1,0 +1,29 @@
+Admin dashboard:
+- layout first design(following a strict structure given), so we use grid
+
+
+focus on sidebar inner layout first.
+eating up space. 
+focus on non-dynamic
+want them to clump up together and not occupy extra space.
+try px with fixed sizes first
+so need to reduce the size of the grids.
+too much free space to deal with. need some sort of spreading out. 
+lets go with the dynamic layout as it seems more reasonable. 
+ul also has to be a grid.
+keeping gap fixed isn't that bad, we can change it to dynamic when needed.
+
+side bar dummy finished
+
+now focus on the search bar
+at first glance there's 2 grid elements. 
+but the tough part is deciding appropriate class names.
+so the right element won't connect because we gave it fr. 
+want to use content layout. 
+we need dynamic here?
+we might need two columns but 
+right, auto and fr 
+problem: The name should match the button last thing. 
+go with fixed layout and use grip as much as possible. 
+to do: roughly fill in the projects with boxes first, then add icons
+
